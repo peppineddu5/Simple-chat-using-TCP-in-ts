@@ -3,7 +3,7 @@ const server = net.createServer();
 import { HOST,PORT } from "./util/util";
 
 // All Scoket
-var clients: Array<net.Socket> = [];
+const clients: Array<net.Socket> = [];
 
 server.on("connection", socket => {
     console.log("Client connected")

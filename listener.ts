@@ -3,9 +3,8 @@ import { sleep,HOST,PORT } from "./util/util";
 //variable to not rewrite
 let myData = ""
 
-init()
 
-async function init() {
+const init=async()=> {
     await sleep(1000)
 
     const client = new net.Socket();
@@ -55,3 +54,5 @@ async function init() {
         console.log('Connection closed');
     });
 }
+
+init()
