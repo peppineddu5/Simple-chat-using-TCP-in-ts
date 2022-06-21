@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devServer": "nodemon listener.ts",
-    "devListener": "nodemon server.ts"
+    "devListener": "nodemon server.ts",
+    "devServer": "nodemon listener.ts"
   },
   "keywords": [],
   "author": "",
